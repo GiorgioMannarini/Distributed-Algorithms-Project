@@ -10,7 +10,7 @@ The goal of this practical project is to implement certain building blocks neces
 - FIFO Broadcast (submission #1),
 - Localized Causal Broadcast (submission #2)
 
-Various applications (e.g., a payment system) can be built upon these lower-level abstractions. We will check your submissions (see [Submissions](#submissions)) for correctness and performance as part of the final evaluation.
+Various applications (e.g., a payment system) can be built upon these lower-level abstractions. We will check your submissions for correctness and performance as part of the final evaluation.
 
 The implementation must take into account that **messages** exchanged between processes **may be dropped, delayed or reordered by the network**. The execution of processes may be paused for an arbitrary amount of time and resumed later. Processes may also fail by crashing at arbitrary points of their execution.
 
